@@ -1,0 +1,14 @@
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+.tonal-shift {
+    transition: background-color 0.3s ease;
+}
+
+.glass-header {
+    background: rgba(252, 249, 248, 0.7);
+    backdrop-filter: blur(20px);
+}
+
