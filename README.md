@@ -1,4 +1,4 @@
-# Zenvault 💰
+# समृद्धि  💰
 
 A premium expense tracking web application built using Flask.
 
