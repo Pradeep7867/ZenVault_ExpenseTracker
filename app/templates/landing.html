@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The समृद्धि </title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-container": "#959efd",
+                        "background": "#fcf9f8",
+                        "surface-tint": "#046b5e",
+                        "tertiary-container": "#633800",
+                        "on-primary-fixed": "#00201b",
+                        "on-tertiary": "#ffffff",
+                        "outline": "#707976",
+                        "surface-container-highest": "#e5e2e1",
+                        "on-error-container": "#93000a",
+                        "inverse-primary": "#84d5c5",
+                        "surface-variant": "#e5e2e1",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed-variant": "#343d96",
+                        "tertiary-fixed-dim": "#ffb870",
+                        "primary-fixed": "#a0f2e1",
+                        "outline-variant": "#bfc9c5",
+                        "secondary-fixed-dim": "#bdc2ff",
+                        "on-background": "#1c1b1b",
+                        "surface-container": "#f0edec",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#005046",
+                        "surface-bright": "#fcf9f8",
+                        "on-tertiary-fixed-variant": "#693c00",
+                        "on-surface": "#1c1b1b",
+                        "tertiary": "#432400",
+                        "on-surface-variant": "#3f4946",
+                        "on-secondary-fixed": "#000767",
+                        "on-tertiary-container": "#fc9600",
+                        "secondary": "#4c56af",
+                        "inverse-surface": "#313030",
+                        "error-container": "#ffdad6",
+                        "surface": "#fcf9f8",
+                        "on-tertiary-fixed": "#2c1600",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed": "#e0e0ff",
+                        "primary-container": "#004b41",
+                        "on-secondary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "inverse-on-surface": "#f3f0ef",
+                        "on-primary-container": "#6cbdad",
+                        "primary-fixed-dim": "#84d5c5",
+                        "surface-dim": "#dcd9d9",
+                        "surface-container-high": "#ebe7e7",
+                        "on-secondary-container": "#27308a",
+                        "surface-container-low": "#f6f3f2",
+                        "tertiary-fixed": "#ffdcbe",
+                        "primary": "#00322b"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "display": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-header {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary-fixed-dim selection:text-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-lg shadow-[0_12px_32px_-4px_rgba(28,27,27,0.06)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-5">
+<div class="text-2xl font-black tracking-tighter text-emerald-950">
+                The समृद्धि
+            </div>
+<div class="hidden md:flex items-center gap-10">
+<a class="font-['Manrope'] font-bold tracking-tight text-lg text-emerald-950 border-b-2 border-emerald-900 pb-1 hover:text-emerald-700 transition-all duration-300" href="#">Features</a>
+<a class="font-['Manrope'] font-medium tracking-tight text-lg text-emerald-800/60 hover:text-emerald-700 transition-all duration-300" href="#">The Ledger</a>
+<a class="font-['Manrope'] font-medium tracking-tight text-lg text-emerald-800/60 hover:text-emerald-700 transition-all duration-300" href="#">Security</a>
+<a class="font-['Manrope'] font-medium tracking-tight text-lg text-emerald-800/60 hover:text-emerald-700 transition-all duration-300" href="#">Pricing</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-emerald-800/60 font-semibold hover:text-emerald-950 transition-colors">Login</button>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-xl font-bold scale-98 active:scale-95 transition-transform duration-200 shadow-lg shadow-primary/20">Signup</button>
+</div>
+</div>
+</nav>
+<main class="pt-24 overflow-hidden">
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex flex-col justify-center px-8 max-w-7xl mx-auto py-20">
+<div class="grid lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 z-10">
+<span class="inline-block bg-tertiary-container text-on-tertiary-container px-4 py-1.5 rounded-full text-sm font-bold tracking-wider mb-8 uppercase">Editorial No. 01</span>
+<h1 class="font-display font-extrabold text-7xl md:text-8xl leading-[1.05] tracking-tight text-primary mb-8">
+                        The Modern Ledger <br/>
+<span class="text-on-surface-variant font-light">for the New India.</span>
+</h1>
+<p class="text-xl md:text-2xl text-on-surface-variant max-w-2xl leading-relaxed mb-12">
+                        Precision tracking for the dynamic Indian economy. From high-speed UPI flows to complex GST filings, manage your capital with institutional clarity.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="/dashboard"
+   class="bg-primary text-on-primary px-10 py-5 rounded-2xl font-bold text-lg hover:bg-primary-container transition-all shadow-2xl shadow-primary/10">
+   Get Started
+</a>
+<button class="bg-surface-container-high text-on-surface px-10 py-5 rounded-2xl font-bold text-lg hover:bg-surface-container-highest transition-all">Watch the Film</button>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl relative">
+<img class="w-full h-full object-cover grayscale brightness-90 contrast-125" data-alt="Abstract 3D render of fluid metallic shapes flowing vertically in deep emerald and silver representing digital capital movement" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWSgDYrq4mpCfDkQmOZUOt7fsHSjPXkY6JbHv9_KSdKGzIAc5LB0X2SYTB8KimobEvpOBAD5XN1ZoU1U_1HXXUBU1lfwWWP05SiGWg-fZI246Oqva3vs7dT3lisa2HuTYkLNbLzykcQ8g5HKzeCYOZdeI17padQDOk7jSLpK8vIxQCWFX6TOn2i5WEU4sC0GwYpcrBtQQ2TlFR31NblckgSPs7phht3FyU06l-Zq6JDyQIXcSI3Az_P4bZH5HNZrvqRIpGIsWiXxiW"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/40 to-transparent"></div>
+</div>
+<!-- Decorative Rupee Floating Card -->
+<div class="absolute -bottom-10 -left-10 bg-white/70 backdrop-blur-xl p-8 rounded-2xl shadow-2xl border-white/20">
+<div class="text-on-surface-variant text-sm font-medium mb-1">Total Reserve</div>
+<div class="font-display font-bold text-4xl text-primary">₹8,42,000.00</div>
+</div>
+</div>
+</div>
+<!-- Background Accent -->
+<div class="absolute top-1/2 -right-1/4 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[120px] -z-10"></div>
+</section>
+<!-- Value Proposition (Bento Grid) -->
+<section class="bg-surface-container-low py-32 px-8">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-xl">
+<h2 class="font-display font-bold text-5xl tracking-tight text-primary mb-6">Designed for India's Digital Architecture.</h2>
+<p class="text-on-surface-variant text-lg">We don't just track numbers; we translate the unique pulse of the Indian marketplace into actionable intelligence.</p>
+</div>
+<div class="flex gap-2">
+<span class="material-symbols-outlined text-4xl text-primary-fixed-dim">account_balance</span>
+<span class="material-symbols-outlined text-4xl text-primary-fixed-dim">assured_workload</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="group bg-surface-container-lowest p-10 rounded-3xl hover:shadow-xl transition-all duration-500 flex flex-col h-full border border-outline-variant/10">
+<div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">verified_user</span>
+</div>
+<h3 class="font-headline font-bold text-2xl text-primary mb-4">Institutional-Grade Security</h3>
+<p class="text-on-surface-variant leading-relaxed mb-auto">AES-256 encryption with multi-signature verification, ensuring your wealth data stays exclusively under your control.</p>
+</div>
+<!-- Card 2 -->
+<div class="group bg-primary text-on-primary p-10 rounded-3xl shadow-2xl flex flex-col h-full transform md:-translate-y-6">
+<div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-3xl text-white">psychology</span>
+</div>
+<h3 class="font-headline font-bold text-2xl mb-4">AI-Powered Insights</h3>
+<p class="text-on-primary/80 leading-relaxed mb-auto">Smart algorithms that learn your spending patterns, predicting tax liabilities and suggesting capital optimization strategies in real-time.</p>
+</div>
+<!-- Card 3 -->
+<div class="group bg-surface-container-lowest p-10 rounded-3xl hover:shadow-xl transition-all duration-500 flex flex-col h-full border border-outline-variant/10">
+<div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">grid_view</span>
+</div>
+<h3 class="font-headline font-bold text-2xl text-primary mb-4">Contextual Categorization</h3>
+<p class="text-on-surface-variant leading-relaxed mb-auto">Pre-built categories for GST filing, UPI, micro-transactions, and traditional Indian family offices. Simplified but rigorous.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Teaser -->
+<section class="py-32 px-8 bg-surface">
+<div class="max-w-7xl mx-auto overflow-hidden rounded-[3rem] bg-primary relative min-h-[600px] flex items-center group">
+<img class="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-overlay group-hover:scale-105 transition-transform duration-[2000ms]" data-alt="Modern dark dashboard interface showing financial growth charts and spending categories with a soft emerald glow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCh8RoRnpeP-M_2cQOe3pNCNkQqkN1v5nAnmgb9CjLl1LULhoOjOI5nUsy-uoBS0UprUD4VT4WCcsRkC8EEhmpwLTcIAF36F49kbZEie8nJDoSChG9N4aYwBe5q9xPEcpVVuJ19UGueWA3vx5hyBOnUxg_9IcswUNkOGureKO87dI6-k0BaPJdO2RIVDVPOaMgfHsHKXxS0tBZ4MnvJGVbZASdHWw1bKWSS7uYzorCFv5bivzG_qlocFR5z8Bi0ifXJnd36TamRKtgK"/>
+<div class="relative z-10 px-12 md:px-24 grid md:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-display font-extrabold text-5xl text-white leading-tight mb-8">Master your capital flow with a single touch.</h2>
+<ul class="space-y-6">
+<li class="flex items-center gap-4">
+<span class="w-6 h-6 bg-primary-fixed-dim rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-xs text-primary font-black">check</span>
+</span>
+<span class="text-white text-lg font-medium">One-click UPI import</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="w-6 h-6 bg-primary-fixed-dim rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-xs text-primary font-black">check</span>
+</span>
+<span class="text-white text-lg font-medium">Automatic GST separation</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="w-6 h-6 bg-primary-fixed-dim rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-xs text-primary font-black">check</span>
+</span>
+<span class="text-white text-lg font-medium">Institutional PDF exports</span>
+</li>
+</ul>
+</div>
+<div class="bg-white/5 backdrop-blur-xl rounded-2xl p-1 border border-white/10 shadow-2xl">
+<div class="bg-surface rounded-xl p-8">
+<div class="flex justify-between items-center mb-8">
+<span class="font-bold text-primary">New Entry</span>
+<span class="material-symbols-outlined text-on-surface-variant">close</span>
+</div>
+<div class="space-y-6">
+<div class="bg-surface-container-high p-4 rounded-xl">
+<label class="block text-xs uppercase font-bold tracking-widest text-on-surface-variant mb-1">Amount</label>
+<div class="text-3xl font-display font-bold text-primary">₹ 4,500.00</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-high p-4 rounded-xl">
+<label class="block text-xs uppercase font-bold tracking-widest text-on-surface-variant mb-1">Category</label>
+<div class="text-on-surface font-semibold">Logistics</div>
+</div>
+<div class="bg-surface-container-high p-4 rounded-xl">
+<label class="block text-xs uppercase font-bold tracking-widest text-on-surface-variant mb-1">Mode</label>
+<div class="text-on-surface font-semibold">UPI/Paytm</div>
+</div>
+</div>
+<button class="w-full bg-primary text-on-primary py-4 rounded-xl font-bold shadow-lg">Confirm Entry</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Section -->
+<section class="py-24 px-8 text-center max-w-4xl mx-auto">
+<h2 class="font-display font-bold text-4xl text-primary mb-6"> Crafted with Precision. </h2>
+    <p class="text-on-surface-variant text-lg mb-10"> Designed and developed as a modern financial tracking system focused on clarity, simplicity, and performance. </p>
+    <div class="flex justify-center items-center gap-3 text-on-surface-variant text-sm font-medium">
+        <span>Developed by</span> <span class="font-bold text-primary text-base tracking-wide"> Pradeep Sajnani </span> <span class="text-xs opacity-60"> Software Engineer </span> </div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-auto bg-stone-100">
+<div class="max-w-7xl mx-auto px-8 py-16 flex flex-col md:flex-row justify-between items-start gap-8">
+<div class="max-w-xs">
+<div class="font-['Manrope'] font-bold text-emerald-900 text-2xl mb-4">The समृद्धि</div>
+<p class="font-['Inter'] text-sm tracking-wide text-stone-500 leading-relaxed">
+                    © 2026 The समृद्धि. The Editorial Ledger. <br/>
+                    Crafting financial clarity for a rising nation.
+                </p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12">
+<div class="flex flex-col gap-4">
+<span class="text-emerald-950 font-semibold font-['Inter'] text-sm">Product</span>
+<a class="text-stone-500 font-['Inter'] text-sm hover:text-emerald-700 transition-colors underline decoration-emerald-500/30 underline-offset-4" href="#">Features</a>
+<a class="text-stone-500 font-['Inter'] text-sm hover:text-emerald-700 transition-colors underline decoration-emerald-500/30 underline-offset-4" href="#">Pricing</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-emerald-950 font-semibold font-['Inter'] text-sm">Institution</span>
+<a class="text-stone-500 font-['Inter'] text-sm hover:text-emerald-700 transition-colors underline decoration-emerald-500/30 underline-offset-4" href="#">Privacy Policy</a>
+<a class="text-stone-500 font-['Inter'] text-sm hover:text-emerald-700 transition-colors underline decoration-emerald-500/30 underline-offset-4" href="#">Terms of Service</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-emerald-950 font-semibold font-['Inter'] text-sm">Support</span>
+<a class="text-stone-500 font-['Inter'] text-sm hover:text-emerald-700 transition-colors underline decoration-emerald-500/30 underline-offset-4" href="#">Institutional Access</a>
+<a class="text-stone-500 font-['Inter'] text-sm hover:text-emerald-700 transition-colors underline decoration-emerald-500/30 underline-offset-4" href="#">Contact Editorial</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-emerald-950 font-semibold font-['Inter'] text-sm">Social</span>
+<a class="text-stone-500 font-['Inter'] text-sm hover:text-emerald-700 transition-colors underline decoration-emerald-500/30 underline-offset-4" href="#">Twitter</a>
+<a class="text-stone-500 font-['Inter'] text-sm hover:text-emerald-700 transition-colors underline decoration-emerald-500/30 underline-offset-4" href="#">LinkedIn</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

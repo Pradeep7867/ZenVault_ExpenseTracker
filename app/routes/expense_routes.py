@@ -6,6 +6,11 @@ from app.models.db import get_db_connection
 expense_bp = Blueprint('expense', __name__)
 
 @expense_bp.route('/')
+def landing():
+    return render_template('landing.html')
+
+
+@expense_bp.route('/dashboard')
 def home():
     expenses = fetch_all_expenses()
     dashboard = fetch_dashboard_data()
